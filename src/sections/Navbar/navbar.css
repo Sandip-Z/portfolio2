@@ -1,0 +1,18 @@
+nav {
+  padding: 0 100px !important;
+}
+
+.navbar__logo--image {
+  height: 50px;
+}
+
+.navbar__list {
+  display: flex;
+  align-items: center;
+  margin: auto 0px;
+}
+
+.navbar__list--item {
+  list-style: none;
+  padding: 0 7px;
+}
