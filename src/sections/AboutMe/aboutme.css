@@ -1,0 +1,13 @@
+.aboutme {
+  padding: 100px;
+}
+
+.aboutme__profile-picture {
+  width: 300px;
+  height: 350px;
+}
+
+.aboutme__name {
+  font-style: italic;
+  color: #e7a650;
+}
