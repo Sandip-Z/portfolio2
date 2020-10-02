@@ -1,0 +1,9 @@
+.project-container {
+  background-color: cadetblue;
+  margin: 50px;
+  width: 300px;
+  height: 400px;
+  padding: 25px;
+  border-radius: 7px;
+  color: white;
+}
