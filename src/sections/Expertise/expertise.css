@@ -1,0 +1,27 @@
+.expertise-body {
+  display: flex;
+  flex-wrap: wrap;
+  background: #fdf5ed !important;
+  border-radius: 0px 20px 20px 0px;
+  padding: 100px;
+}
+
+.expertise {
+  /* border: 1px solid red; */
+  width: 50% !important;
+  /* display: flex; */
+  /* position: relative; */
+}
+.expertise-name {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* position: relative; */
+}
+
+.expertise-name h3 {
+  background-color: #f6ddbe;
+  width: 70px;
+  border-radius: 60px;
+  height: 70px;
+  padding: 19px 25px;
+}
