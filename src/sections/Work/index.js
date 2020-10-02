@@ -2,6 +2,7 @@ import React from "react";
 import "./work.css";
 import projects from "./data.json";
 import ProjectContainer from "../../components/ProjectContainer";
+import SectionHeading from "../../components/SectionHeading";
 
 const Work = () => {
   const renderProjects = projects.map((project) => {
@@ -9,13 +10,11 @@ const Work = () => {
   });
   return (
     <section className="section__wrapper">
-      <div className="d-flex">
-        <h1>My Work</h1>
-        <span className="align-self-center mx-3 text-grey">
-          Lorem Ipsum is a text which is very random in nature and for this
-          section we dont need it to be long
-        </span>
-      </div>
+      <SectionHeading
+        title="My Work"
+        description=" Lorem Ipsum is a text which is very random in nature and for this
+          section we dont need it to be long"
+      />
       <div className="d-flex flex-wrap">{renderProjects}</div>
     </section>
   );

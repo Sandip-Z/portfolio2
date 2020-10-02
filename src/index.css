@@ -30,6 +30,6 @@ ul {
 }
 
 .section__wrapper {
-  border: 5px dotted red;
+  /* border: 5px dotted red; */
   padding: 100px;
 }

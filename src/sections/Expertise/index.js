@@ -2,6 +2,7 @@ import React from "react";
 import ExpertiseContainer from "../../components/ExpertiseContainer";
 import expertises from "./expertise.json";
 import "./expertise.css";
+import SectionHeading from "../../components/SectionHeading";
 
 const Expertise = () => {
   const renderAllExpertise = expertises.map((expertise) => {
@@ -9,12 +10,10 @@ const Expertise = () => {
   });
   return (
     <section className="section__wrapper">
-      <div className="d-flex">
-        <h1>My Expertise</h1>
-        <span className="align-self-center mx-3">
-          Lorem Ipsum text which wont be very long.
-        </span>
-      </div>
+      <SectionHeading
+        title="My Expertise"
+        description="Lorem Ipsum text which wont be very long."
+      />
       <div className="expertise-body">{renderAllExpertise}</div>
     </section>
   );

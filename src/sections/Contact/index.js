@@ -3,11 +3,12 @@ import Address from "../../components/Address";
 import SocialMedia from "../../components/SocialMedia";
 import ContactForm from "./Form";
 import "./contact.css";
+import SectionHeading from "../../components/SectionHeading";
 
 const Contact = () => {
   return (
     <section className="section__wrapper">
-      <h3>GET IN TOUCH</h3>
+      <SectionHeading title="Get in Touch" />
       <div className="row">
         <div className="col-lg-6 d-flex flex-column">
           <Address />
