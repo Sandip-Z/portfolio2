@@ -1,0 +1,13 @@
+footer {
+  padding: 25px 0;
+  background-color: #212427 !important;
+}
+
+.footer__social {
+  color: white;
+}
+
+.footer__social li {
+  font-size: 25px;
+  margin-right: 7px;
+}

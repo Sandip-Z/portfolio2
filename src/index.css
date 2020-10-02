@@ -24,3 +24,7 @@ button {
   background-color: #e7a650;
   color: white;
 }
+
+ul {
+  list-style: none;
+}
