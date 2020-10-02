@@ -1,0 +1,12 @@
+.contact-social li {
+  font-size: 25px !important;
+  color: black;
+}
+
+.contact-form__input {
+  padding: 10px;
+  width: 100%;
+  margin: 15px;
+  border-radius: 7px;
+  border: 1px solid gainsboro;
+}
