@@ -1,0 +1,46 @@
+.header {
+  position: relative;
+  height: 100vh;
+  background-image: url("../../assets/header-bg.jpg");
+  background-size: cover;
+}
+
+.header__content {
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -60%);
+}
+
+.header__content h1 {
+  font-weight: bolder;
+  color: whitesmoke;
+}
+
+.header__content h5 {
+  color: whitesmoke;
+  margin-top: 10px;
+}
+
+.header__button {
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.header__social-media {
+  position: absolute;
+  bottom: 0px;
+  padding-left: 100px;
+}
+
+.header__social-media--list {
+  display: flex;
+  list-style: none;
+  font-size: 25px;
+}
+
+.header__social-media--list--item {
+  padding-right: 15px;
+  color: white;
+}

@@ -1,5 +1,8 @@
 nav {
   padding: 0 100px !important;
+  position: absolute !important;
+  z-index: 1000;
+  width: 100%;
 }
 
 .navbar__logo--image {
@@ -15,4 +18,5 @@ nav {
 .navbar__list--item {
   list-style: none;
   padding: 0 7px;
+  color: white;
 }
