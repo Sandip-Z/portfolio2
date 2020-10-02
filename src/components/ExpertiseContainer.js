@@ -6,7 +6,7 @@ const ExpertiseContainer = ({ expertise }) => {
       <div className="expertise-name">
         <h3>{expertise.name}</h3>
       </div>
-      <p>{expertise.description}</p>
+      <p className="ml-4">{expertise.description}</p>
     </div>
   );
 };

@@ -1,9 +1,16 @@
 .project-container {
   background-color: cadetblue;
-  margin: 50px;
+  margin: 0px 20px 50px 0;
   width: 300px;
   height: 400px;
   padding: 25px;
   border-radius: 7px;
   color: white;
+}
+
+.work {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), transparent),
+    url("../../assets/project-bg-0.jpg");
+  background-size: cover;
+  color: aliceblue;
 }
