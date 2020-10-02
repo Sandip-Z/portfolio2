@@ -28,3 +28,8 @@ button {
 ul {
   list-style: none;
 }
+
+.section__wrapper {
+  border: 5px dotted red;
+  padding: 100px;
+}

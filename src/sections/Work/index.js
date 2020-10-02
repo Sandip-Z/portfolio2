@@ -8,7 +8,7 @@ const Work = () => {
     return <ProjectContainer project={project} />;
   });
   return (
-    <>
+    <section className="section__wrapper">
       <div className="d-flex">
         <h1>My Work</h1>
         <span className="align-self-center mx-3 text-grey">
@@ -17,7 +17,7 @@ const Work = () => {
         </span>
       </div>
       <div className="d-flex flex-wrap">{renderProjects}</div>
-    </>
+    </section>
   );
 };
 

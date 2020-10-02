@@ -4,7 +4,7 @@ import ProfilPicture from "../../assets/ishan-subedi.jpg";
 
 const AboutMe = () => {
   return (
-    <main className="aboutme">
+    <main className="aboutme section__wrapper">
       <div className="row">
         <div className="col-lg-6">
           <figure className="d-flex justify-content-center">

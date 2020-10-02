@@ -8,7 +8,7 @@ const Expertise = () => {
     return <ExpertiseContainer expertise={expertise} key={expertise.id} />;
   });
   return (
-    <section>
+    <section className="section__wrapper">
       <div className="d-flex">
         <h1>My Expertise</h1>
         <span className="align-self-center mx-3">
