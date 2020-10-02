@@ -16,12 +16,12 @@ const AboutMe = () => {
           </figure>
         </div>
         <div className="col-lg-6">
-          <h1>About Me</h1>
-          <h3 className="mb-0">
+          <h1 className="mb-3">About Me</h1>
+          <h3 className="mb-1">
             Hello I'm <span className="aboutme__name">Ishan Subedi</span>
           </h3>
           <h5 className="my-0">Vue/Vuetify and Nuxt Developer</h5>
-          <p className="mt-3">
+          <p className="mt-4">
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout. The point
             of using Lorem Ipsum is that it has a more-or-less normal

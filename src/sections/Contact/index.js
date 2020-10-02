@@ -10,9 +10,11 @@ const Contact = () => {
     <section className="section__wrapper">
       <SectionHeading title="Get in Touch" />
       <div className="row">
-        <div className="col-lg-6 d-flex flex-column">
+        <div className="col-lg-6 d-flex flex-column m-auto">
           <Address />
-          <SocialMedia className="contact-social" />
+          <div className="mt-5">
+            <SocialMedia className="contact-social" />
+          </div>
         </div>
         <div className="col-lg-6">
           <ContactForm />

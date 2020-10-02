@@ -14,10 +14,10 @@ const Header = () => {
       <div className="header__social-media">
         <ul className="header__social-media--list">
           <li className="header__social-media--list--item">
-            <AiOutlineTwitter />
+            <AiOutlineTwitter className="icon" />
           </li>
           <li className="header__social-media--list--item">
-            <AiFillInstagram />
+            <AiFillInstagram className="icon" />
           </li>
         </ul>
       </div>

@@ -32,4 +32,13 @@ ul {
 .section__wrapper {
   /* border: 5px dotted red; */
   padding: 100px;
+  padding-bottom: 25px;
+}
+
+.icon {
+  font-size: 25px;
+}
+
+.social-media-list li {
+  margin-right: 25px;
 }

@@ -9,12 +9,12 @@ const Expertise = () => {
     return <ExpertiseContainer expertise={expertise} key={expertise.id} />;
   });
   return (
-    <section className="section__wrapper">
+    <section className="section__wrapper pb-0">
       <SectionHeading
         title="My Expertise"
         description="Lorem Ipsum text which wont be very long."
       />
-      <div className="expertise-body">{renderAllExpertise}</div>
+      <div className="expertise-body shadow">{renderAllExpertise}</div>
     </section>
   );
 };

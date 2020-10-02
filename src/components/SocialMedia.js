@@ -7,7 +7,7 @@ import {
 
 const SocialMedia = ({ className }) => {
   return (
-    <ul className={`d-flex ${className}`}>
+    <ul className={`d-flex social-media-list ${className}`}>
       <li>
         <AiFillFacebook />
       </li>
