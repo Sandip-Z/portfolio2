@@ -17,6 +17,7 @@ nav {
 
 .navbar__list--item {
   list-style: none;
-  padding: 0 7px;
+  padding: 0 15px;
   color: white;
+  font-size: 19px !important;
 }
