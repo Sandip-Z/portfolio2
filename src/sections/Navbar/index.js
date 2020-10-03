@@ -2,6 +2,7 @@ import React, { useLayoutEffect, useState } from "react";
 import Menu from "./Menu";
 import Logo from "../../assets/logo.png";
 import "./navbar.css";
+import { RiMenuUnfoldFill, RiCloseLine } from "react-icons/ri";
 
 const Navbar = () => {
   const [scrollPos, setScrollPos] = useState(undefined);
@@ -50,7 +51,11 @@ const Navbar = () => {
           } toggle-collapsed-navbar-label`}
           onClick={(e) => setMenuChecked(!menuChecked)}
         >
-          Menu
+          {menuChecked ? (
+            <RiCloseLine className="icon" />
+          ) : (
+            <RiMenuUnfoldFill className="icon" />
+          )}
         </label>
       </div>
     </nav>
