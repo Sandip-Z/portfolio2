@@ -10,7 +10,7 @@ const Contact = () => {
     <section className="section__wrapper">
       <SectionHeading title="Get in Touch" />
       <div className="row">
-        <div className="col-lg-6 d-flex flex-column">
+        <div className="col-lg-6 contact__address">
           <Address />
           <div className="mt-auto">
             <SocialMedia className="contact-social" />

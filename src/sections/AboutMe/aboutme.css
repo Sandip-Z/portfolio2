@@ -11,3 +11,13 @@
   font-style: italic;
   color: #e7a650;
 }
+
+.aboutme__description {
+  text-align: left;
+}
+
+@media (max-width: 991px) {
+  .aboutme__description {
+    text-align: center;
+  }
+}

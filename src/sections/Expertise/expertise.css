@@ -16,6 +16,7 @@
   /* display: flex; */
   /* flex-direction: column; */
   /* position: relative; */
+  /* border: 1px solid red; */
 }
 
 .expertise-name h3 {
@@ -24,4 +25,25 @@
   border-radius: 60px;
   height: 70px;
   padding: 19px 25px;
+}
+
+@media (max-width: 991px) {
+  .expertise-body {
+    flex-direction: column;
+    padding: 25px;
+  }
+
+  .expertise {
+    width: 100% !important;
+  }
+
+  .expertise-name p {
+    margin: 0px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .expertise-body {
+    align-content: "center";
+  }
 }

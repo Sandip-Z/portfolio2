@@ -1,4 +1,7 @@
 .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
   height: 100vh;
   background-image: url("../../assets/header-bg.jpg");
@@ -6,18 +9,24 @@
 }
 
 .header__content {
-  position: absolute;
+  /* position: absolute;
   top: 50vh;
   left: 50vw;
-  transform: translate(-50%, -60%);
+  transform: translate(-50%, -60%); */
+  /* border: 1px dotted red; */
+  padding: 25px;
 }
 
 .header__content h1 {
+  text-align: center;
+  font-size: 60px;
   font-weight: bolder;
   color: whitesmoke;
+  margin-bottom: 30px;
 }
 
 .header__content h5 {
+  font-size: 25px;
   color: whitesmoke;
   margin-top: 10px;
 }
@@ -32,6 +41,7 @@
   position: absolute;
   bottom: 60px;
   padding-left: 100px;
+  left: 0px;
 }
 
 .header__social-media--list {

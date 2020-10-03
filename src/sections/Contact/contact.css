@@ -1,3 +1,8 @@
+.contact__address {
+  display: flex;
+  flex-direction: column;
+}
+
 .contact-social li {
   font-size: 25px !important;
   color: black;
@@ -9,4 +14,16 @@
   margin: 15px;
   border-radius: 7px;
   border: 1px solid gainsboro;
+}
+
+@media (max-width: 768px) {
+  .contact__address {
+    padding-left: 36px !important;
+  }
+}
+
+@media (max-width: 548px) {
+  .contact__address {
+    align-items: center;
+  }
 }

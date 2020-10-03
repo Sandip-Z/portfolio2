@@ -42,3 +42,20 @@ ul {
 .social-media-list li {
   margin-right: 25px;
 }
+
+.section-heading {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .section__wrapper {
+    padding: 25px !important;
+  }
+
+  .section-heading {
+    flex-direction: column;
+  }
+}

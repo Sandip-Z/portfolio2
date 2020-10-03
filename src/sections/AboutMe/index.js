@@ -15,7 +15,7 @@ const AboutMe = () => {
             />
           </figure>
         </div>
-        <div className="col-lg-6">
+        <div className="col-lg-6 aboutme__description">
           <h1 className="mb-3">About Me</h1>
           <h3 className="mb-1">
             Hello I'm <span className="aboutme__name">Ishan Subedi</span>
@@ -28,7 +28,7 @@ const AboutMe = () => {
             distribution of letters, as opposed to using 'Content here, content
             here', making it look like readable English.{" "}
           </p>
-          <div className="mt-5">
+          <div className="mt-5 d-flex justify-content-center">
             <button>See My Works</button>
           </div>
         </div>
