@@ -1,6 +1,6 @@
 nav {
   padding: 0 100px !important;
-  position: absolute !important;
+  /* position: absolute !important; */
   z-index: 1000;
   width: 100%;
 }
