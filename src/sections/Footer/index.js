@@ -25,7 +25,7 @@ const Footer = () => {
         </ul>
       </div>
       <div className="align-self-center">
-        <ul className="d-flex m-auto footer__social">
+        <ul className="m-auto footer__social">
           <li>
             <AiFillFacebook />
           </li>

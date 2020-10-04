@@ -4,6 +4,7 @@ footer {
 }
 
 .footer__social {
+  display: flex;
   color: white;
 }
 
@@ -15,6 +16,10 @@ footer {
 @media (max-width: 850px) {
   footer ul {
     flex-wrap: wrap;
-    justify-items: center;
+    justify-content: center;
+  }
+
+  .footer__social {
+    display: none !important;
   }
 }
