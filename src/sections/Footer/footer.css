@@ -11,3 +11,10 @@ footer {
   font-size: 25px;
   margin-right: 7px;
 }
+
+@media (max-width: 850px) {
+  footer ul {
+    flex-wrap: wrap;
+    justify-items: center;
+  }
+}
