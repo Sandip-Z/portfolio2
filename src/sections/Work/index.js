@@ -15,7 +15,7 @@ const Work = () => {
         description=" Lorem Ipsum is a text which is very random in nature and for this
           section we dont need it to be long"
       />
-      <div className="d-flex projects">{renderProjects}</div>
+      <div className="projects">{renderProjects}</div>
     </section>
   );
 };

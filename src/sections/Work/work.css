@@ -8,6 +8,12 @@
   color: white;
 }
 
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .work {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), transparent),
     url("../../assets/project-bg-0.jpg");
