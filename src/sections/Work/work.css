@@ -6,6 +6,7 @@
   padding: 25px;
   border-radius: 7px;
   color: white;
+  text-align: start !important;
 }
 
 .projects {
