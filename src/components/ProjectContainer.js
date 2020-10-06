@@ -14,7 +14,7 @@ const ProjectContainer = ({ project, index }) => {
       style={{
         backgroundImage: `${gradient}${gradient ? "," : ""} url(${url})`,
         backgroundSize: "cover",
-        height: index % 3 === 0 || index % 4 === 0 ? "200px" : "400px",
+        height: index % 3 === 0 || index % 4 === 0 ? "175px" : "400px",
       }}
       onMouseOver={() =>
         setGradient("linear-gradient(to right, #666a6a87, transparent)")

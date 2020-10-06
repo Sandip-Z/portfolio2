@@ -17,6 +17,8 @@
 
 .projects {
   display: flex;
+  flex-direction: column;
+  height: 500px;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -28,4 +30,11 @@
   color: aliceblue;
   text-align: center;
   background-attachment: fixed;
+}
+
+@media (max-width: 1108px) {
+  .projects {
+    flex-direction: row !important;
+    height: auto;
+  }
 }
