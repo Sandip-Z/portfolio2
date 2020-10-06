@@ -6,6 +6,7 @@
   height: 100vh;
   background-image: url("../../assets/header-bg.jpg");
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .header__content {
