@@ -39,6 +39,7 @@ nav {
   color: white;
   font-size: 19px !important;
   transition: all 0.7s;
+  border-radius: 7px;
   cursor: pointer;
 }
 

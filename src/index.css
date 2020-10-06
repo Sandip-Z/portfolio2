@@ -23,6 +23,18 @@ button {
   padding: 7px 30px;
   background-color: #e7a650;
   color: white;
+  transition: all 0.8s;
+}
+
+button:hover {
+  background-color: #dd891a;
+  transform: translateY(-3px);
+  transition: all 0.8s;
+}
+
+button:active {
+  background-color: red;
+  transform: translateY(5px);
 }
 
 ul {
