@@ -9,7 +9,7 @@ const Work = () => {
     return <ProjectContainer project={project} index={index + 1} />;
   });
   return (
-    <section className="section__wrapper work">
+    <section className="section__wrapper work" id="work">
       <SectionHeading
         title="My Work"
         description=" Lorem Ipsum is a text which is very random in nature and for this

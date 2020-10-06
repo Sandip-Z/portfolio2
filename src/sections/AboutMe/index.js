@@ -4,7 +4,7 @@ import ProfilPicture from "../../assets/ishan-subedi.jpg";
 
 const AboutMe = () => {
   return (
-    <main className="aboutme section__wrapper">
+    <main className="aboutme section__wrapper" id="aboutme">
       <div className="row">
         <div className="col-lg-6">
           <figure className="d-flex justify-content-center">
@@ -29,7 +29,9 @@ const AboutMe = () => {
             here', making it look like readable English.{" "}
           </p>
           <div className="mt-5 d-flex justify-content-center">
-            <button>See My Works</button>
+            <a href="#work" className="button">
+              See My Works
+            </a>
           </div>
         </div>
       </div>

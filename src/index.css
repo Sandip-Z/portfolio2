@@ -25,7 +25,8 @@ code {
     monospace;
 }
 
-button {
+button,
+.button {
   border-radius: 15px !important;
   border: 0px;
   padding: 7px 30px;
@@ -34,13 +35,19 @@ button {
   transition: all 0.8s;
 }
 
-button:hover {
+.button {
+  margin: auto;
+}
+
+button:hover,
+.button:hover {
   background-color: #dd891a;
   transform: translateY(-3px);
   transition: all 0.8s;
 }
 
-button:active {
+button:active,
+.button:active {
   background-color: red;
   transform: translateY(5px);
 }
@@ -75,6 +82,12 @@ ul {
   justify-content: space-between;
   margin-bottom: 3rem;
   text-align: center;
+}
+
+a:link,
+a:hover {
+  text-decoration: none !important;
+  color: inherit !important;
 }
 
 @media (max-width: 768px) {

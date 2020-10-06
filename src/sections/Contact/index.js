@@ -7,7 +7,7 @@ import SectionHeading from "../../components/SectionHeading";
 
 const Contact = () => {
   return (
-    <section className="section__wrapper">
+    <section className="section__wrapper" id="contact">
       <SectionHeading title="Get in Touch" />
       <div className="row">
         <div className="col-lg-6 contact__address">

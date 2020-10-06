@@ -21,7 +21,7 @@ const Menu = ({ collapsed, hide }) => {
               : "navbar__list--item"
           }
         >
-          Home
+          <a href="#home">Home</a>
         </li>
         <li
           className={
@@ -30,7 +30,7 @@ const Menu = ({ collapsed, hide }) => {
               : "navbar__list--item"
           }
         >
-          About Me
+          <a href="#aboutme">About Me</a>
         </li>
         <li
           className={
@@ -39,7 +39,7 @@ const Menu = ({ collapsed, hide }) => {
               : "navbar__list--item"
           }
         >
-          Works
+          <a href="#work">Works</a>
         </li>
         <li
           className={
@@ -48,9 +48,9 @@ const Menu = ({ collapsed, hide }) => {
               : "navbar__list--item"
           }
         >
-          Expertise
+          <a href="#expertise">Expertise</a>
         </li>
-        <li
+        {/* <li
           className={
             collapsed
               ? "navbar__list--item item-collapsed"
@@ -58,7 +58,7 @@ const Menu = ({ collapsed, hide }) => {
           }
         >
           Journal
-        </li>
+        </li> */}
         <li
           className={
             collapsed
@@ -66,7 +66,7 @@ const Menu = ({ collapsed, hide }) => {
               : "navbar__list--item"
           }
         >
-          Contact
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     )

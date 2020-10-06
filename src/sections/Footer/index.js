@@ -6,22 +6,18 @@ import {
   AiFillTwitterCircle,
 } from "react-icons/ai";
 import Logo from "../../assets/logo.png";
+import Menu from "../Navbar/Menu";
 const Footer = () => {
   return (
     <footer className="d-flex justify-content-around">
       <div className="align-self-center">
         <figure className="m-auto">
-          <img src={Logo} className="navbar__logo--image" alt="ikusum" />
+          <img src={Logo} className="navbar__logo--image" alt="ikhan" />
         </figure>
       </div>
       <div className="align-self-center">
         <ul className="navbar__list align-self-center">
-          <li className="navbar__list--item">Home</li>
-          <li className="navbar__list--item">About Me</li>
-          <li className="navbar__list--item">Works</li>
-          <li className="navbar__list--item">Expertise</li>
-          <li className="navbar__list--item">Journal</li>
-          <li className="navbar__list--item">Contact</li>
+          <Menu />
         </ul>
       </div>
       <div className="align-self-center">
