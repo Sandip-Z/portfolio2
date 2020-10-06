@@ -11,6 +11,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "Piazzolla", serif !important;
+  background-image: linear-gradient(
+      to right,
+      rgba(228, 222, 222, 0.705),
+      rgba(238, 228, 228, 0.295)
+    ),
+    url("./assets/bg.jpg");
 }
 
 code {
