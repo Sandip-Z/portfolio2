@@ -18,7 +18,7 @@ const AboutMe = () => {
         <div className="col-lg-6 aboutme__description">
           <h1 className="mb-3">About Me</h1>
           <h3 className="mb-1">
-            Hello I'm <span className="aboutme__name">Ishan Subedi</span>
+            Hello I'm <span className="aboutme__name">Ikhan Subedi</span>
           </h3>
           <h5 className="my-0">Vue/Vuetify and Nuxt Developer</h5>
           <p className="mt-4">
