@@ -2,12 +2,15 @@ import React from "react";
 import { IoMdArrowForward } from "react-icons/io";
 
 const ProjectContainer = ({ project, index }) => {
-  const url = `../assets/${project.background}`;
+  const url = project.background
+    ? require(`../assets/${project.background}`)
+    : "";
   return (
     <div
       className="d-flex flex-column project-container"
       style={{
         backgroundImage: `url(${url})`,
+        backgroundSize: "cover",
         height: index % 3 === 0 || index % 4 === 0 ? "200px" : "400px",
       }}
     >

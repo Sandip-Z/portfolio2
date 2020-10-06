@@ -10,21 +10,21 @@
     "name": "Mouse Pad",
     "id": 2,
     "technology": "Vue/Vuetify",
-    "background": "",
+    "background": "project-bg-1.jpg",
     "detail": ""
   },
   {
     "name": "Mosquito",
     "id": 3,
     "technology": "Vue/Vuetify",
-    "background": "",
+    "background": "project-bg-2.jpg",
     "detail": ""
   },
   {
     "name": "Laptop",
     "id": 4,
     "technology": "Vue/Vuetify",
-    "background": "",
+    "background": "project-bg-3.jpg",
     "detail": ""
   }
 ]

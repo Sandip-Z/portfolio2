@@ -7,6 +7,12 @@
   border-radius: 7px;
   color: white;
   text-align: start !important;
+  transition: all 0.5s;
+}
+
+.project-container:hover {
+  transition: all 0.5s;
+  padding: 30px 25px !important;
 }
 
 .projects {
