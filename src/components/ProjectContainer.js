@@ -17,7 +17,7 @@ const ProjectContainer = ({ project, index }) => {
         height: index % 3 === 0 || index % 4 === 0 ? "175px" : "400px",
       }}
       onMouseOver={() =>
-        setGradient("linear-gradient(to right, #666a6a87, transparent)")
+        setGradient("linear-gradient(to right, #414142bd, #515252d6)")
       }
       onMouseLeave={() => setGradient("")}
     >
