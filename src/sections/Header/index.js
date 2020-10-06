@@ -12,7 +12,7 @@ const Header = () => {
         <button className="header__button">About me</button>
       </div>
       <div className="header__social-media">
-        <ul className="header__social-media--list">
+        <ul className="header__social-media--list social-media-list">
           <li className="header__social-media--list--item">
             <AiOutlineTwitter className="icon" />
           </li>
