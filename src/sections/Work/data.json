@@ -1,29 +1,29 @@
 [
   {
-    "name": "Khabar",
+    "name": "Presak Distribution",
     "id": 1,
-    "technology": "Vue/Vuetify",
+    "technology": "Web application to organize distribution throughout the country",
     "background": "project-bg-0.jpg",
     "detail": ""
   },
   {
-    "name": "Mouse Pad",
+    "name": "Goodvibes Admin Panel",
     "id": 2,
-    "technology": "Vue/Vuetify",
+    "technology": "Admin panel for Goodvibes.",
     "background": "project-bg-1.jpg",
     "detail": ""
   },
   {
-    "name": "Mosquito",
+    "name": "Watch List",
     "id": 3,
-    "technology": "Vue/Vuetify",
+    "technology": "Web application to store your movie marathons",
     "background": "project-bg-2.jpg",
     "detail": ""
   },
   {
-    "name": "Laptop",
+    "name": "Bigshot",
     "id": 4,
-    "technology": "Vue/Vuetify",
+    "technology": "Landing page for Bigshot Inc.",
     "background": "project-bg-3.jpg",
     "detail": ""
   }

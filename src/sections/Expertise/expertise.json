@@ -1,32 +1,22 @@
 [
   {
     "id": 1,
-    "name": "Vue/Vuetify",
+    "name": "React.js",
     "description": "Your not so long description goes here"
   },
   {
     "id": 2,
-    "name": "Nuxt",
-    "description": "Your not so long description goes here"
-  },
-  {
-    "id": 3,
-    "name": "React",
+    "name": "Next.js",
     "description": "Your not so long description goes here"
   },
   {
     "id": 4,
-    "name": "Angular",
+    "name": "Node.js",
     "description": "Your not so long description goes here"
   },
   {
-    "id": 5,
-    "name": "Django",
-    "description": "Your not so long description goes here"
-  },
-  {
-    "id": 6,
-    "name": "AWS",
+    "id": 3,
+    "name": "SASS",
     "description": "Your not so long description goes here"
   }
 ]

@@ -7,23 +7,23 @@ const Address = () => {
       <address className="d-flex mb-0">
         <ImLocation2 className="icon align-self-start mt-3" />
         <p className="mx-4">
-          <span>Anamnagar, Pulatisadak</span>
-          <span className="d-block">Dillibazar, Kathmandu</span>
+          {/* <span>Anamnagar, Pulatisadak</span> */}
+          <span className="d-block">Hattiban, Lalitpur</span>
           <span className="d-block">Nepal</span>
         </p>
       </address>
-      <div className="d-flex">
+      <div className="d-none">
         <ImPhone className="icon align-self-start mt-3" />
         <p className="mx-4">
-          <span className="d-block">+977 9898989898</span>
+          <span className="d-block">email is enough</span>
           <span className="d-block">+987 5897996658</span>
         </p>
       </div>
       <div className="d-flex">
         <ImEnvelop className="icon align-self-start mt-3" />
         <p className="mx-4">
-          <span className="d-block">johndoe@gmail.com</span>
-          <span className="d-block">summertimes@xmail.com</span>
+          <span className="d-block">sandipsatyal25@gmail.com</span>
+          <span className="d-block">offmtrznephop@gmail.com</span>
         </p>
       </div>
     </div>

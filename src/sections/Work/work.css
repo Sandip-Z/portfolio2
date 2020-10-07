@@ -25,7 +25,7 @@
 
 .work {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), transparent),
-    url("../../assets/project-bg-0.jpg");
+    url("../../assets/work-bg.jpg");
   background-size: cover;
   color: aliceblue;
   text-align: center;

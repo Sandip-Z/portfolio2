@@ -3,8 +3,13 @@
 }
 
 .aboutme__profile-picture {
-  width: 300px;
-  height: 350px;
+  width: 400px;
+  height: auto !important;
+  filter: grayscale(1);
+}
+
+.aboutme__profile-picture:hover {
+  filter: grayscale(1) brightness(1.1);
 }
 
 .aboutme__name {
