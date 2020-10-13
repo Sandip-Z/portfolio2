@@ -2,7 +2,7 @@
   {
     "name": "Presak Distribution",
     "id": 1,
-    "technology": "Web application to organize distribution throughout the country",
+    "technology": "Organize distribution throughout the country",
     "background": "project-bg-0.jpg",
     "detail": ""
   },
@@ -16,7 +16,7 @@
   {
     "name": "Watch List",
     "id": 3,
-    "technology": "Web application to store your movie marathons",
+    "technology": "Store your movie marathons",
     "background": "project-bg-2.jpg",
     "detail": ""
   },
