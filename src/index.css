@@ -49,7 +49,7 @@ button:hover,
 
 button:active,
 .button:active {
-  background-color: red;
+  background-color: rgb(252, 63, 63);
   transform: translateY(5px);
 }
 
@@ -85,10 +85,11 @@ ul {
   text-align: center;
 }
 
+a,
 a:link,
 a:hover {
   text-decoration: none !important;
-  color: inherit !important;
+  color: white !important;
 }
 
 @media (max-width: 768px) {
