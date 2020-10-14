@@ -6,7 +6,9 @@ const ProjectContainer = ({ project, index }) => {
     project.background ? require(`../assets/${project.background}`) : ""
   );
 
-  const [gradient, setGradient] = useState("");
+  const [gradient, setGradient] = useState(
+    "linear-gradient(to right,#3c3c3c52,#a8a8a8a6)"
+  );
 
   return (
     <div
@@ -19,7 +21,9 @@ const ProjectContainer = ({ project, index }) => {
       onMouseOver={() =>
         setGradient("linear-gradient(to right, #414142bd, #515252d6)")
       }
-      onMouseLeave={() => setGradient("")}
+      onMouseLeave={() =>
+        setGradient("linear-gradient(to right,#3c3c3c52,#a8a8a8a6)")
+      }
     >
       <h2>{project.name}</h2>
       <p>{project.technology}</p>
